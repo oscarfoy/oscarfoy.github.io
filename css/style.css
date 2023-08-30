@@ -1,0 +1,79 @@
+/* CSS for oscarfoy.ca */
+
+/* Global */
+html, body {
+	margin: 0;
+	padding: 0;
+	
+	background-color: #101317;
+}
+
+/* Navbar */
+.nav {
+	background-color: #101317;
+	list-style-type: none;
+	
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.nav li {
+	margin: 0;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Archivo Narrow', sans-serif;
+	
+	padding: 10px;
+	margin: 0;
+	
+	display: block;
+}
+
+.nav li a:hover {
+	background-color: #ffffff;
+	color: #101317;
+}
+
+/* Spacer */
+.spacer {
+	width: 100%;
+	height: 0.2%;
+	
+	background-color: #ffffff;
+}
+
+/* Splash */
+.splash {
+	width: 100%;
+	height: 90%;
+	
+	background-image: url("../img/splash.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Info */
+.info {
+	display: grid;
+	
+	width: 100%;
+	height: 100%;
+}
+
+.horizontal {
+	grid-template-columns: 1fr 1fr;
+	
+	display: grid;
+	
+	width: 100%;
+}
+
+/* Footer */
+.footer {
+	background-color: #232529;
+	height: 10%;
+}
