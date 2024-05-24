@@ -1,43 +1,47 @@
-
 <html>
 	<head>
 		<link rel="stylesheet" href="./css/style.css">
-		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet"> 
-		
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Unica+One&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<div class="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="portfolio.html" class="current">Portfolio</a></li>
-			<li><a href="#">Contact</a></li>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="portfolio.html" class="active">Portfolio</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
 		</div>
-		
 		<div class="spacer"></div>
-		
 		<div class="splash"><h1>Portfolio</h1></div>
-		
-		<div class="spacer"></div>
-		
-		<div class="portfolio-container">
-			<div class="portfolio-section">
-				<h2>Misc. Projects</h2>
-				<div class="portfolio-entry">
-					<h3>Programming Resources</h3>
-					<a href="projects/prog-resources.html"><span></span></a>
+		<div class="body">
+			<div class="spacer"></div>
+			<div class="body-row">
+				<div class="body four">
+					<a href="./projects/work-in-progress.html">
+						<h1>Physics Simulation</h1>
+						<h2>Working on it.</h2>
+					</a>
 				</div>
-				<div class="portfolio-entry">
-					<h3>Curve of Best Fit Calc</h3>
-					<a href="projects/cobf.html"><span></span></a>
+				<div class="body four">
+					<a href="./projects/work-in-progress.html">
+						<h1>Graphing Calculator</h1>
+						<h2>Coming soon!</h2>
+					</a>
 				</div>
 			</div>
-			
+			<div class="spacer"></div>
+			<div class="body-row">
+				<div class="body four">
+					<a href="./projects/work-in-progress.html">
+						<h1>3D Renderer</h1>
+						<h2>Big project, scary!</h2>
+					</a>
+				</div>
+			</div>
 		</div>
+		<div class="footer"></div>
 	</body>
 </html>
